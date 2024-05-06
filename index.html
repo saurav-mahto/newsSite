@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mysterious</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .wrapper {
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .box {
+            height: 25vh;
+            width: 50vw;
+            background-color: greenyellow;
+            text-align: center;
+            box-shadow: -10px 2px 6px 2px green;
+            cursor: pointer;
+        }
+
+        :any-link {
+            text-decoration: none;
+        }
+
+        h1 {
+            text-align: center;
+            color: blueviolet;
+            margin-top: 8px;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            top: 26px;
+        }
+
+        body {
+            background-image: url(img1.jpg);
+            object-fit: contain;
+            background-repeat: no-repeat;
+            image-resolution: 300dpi;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            border-radius: 40px;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            color: rgb(180, 100, 255);
+        }
+
+        .navbar ul {
+            display: flex;
+            justify-content: flex-start;
+            gap: 25px;
+            background-color: black;
+            padding: 15px;
+            font-size: 25px;
+            font-weight: 600;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+
+<body>
+    <div class="navbar">
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>contacts</li>
+        </ul>
+    </div>
+
+    <h1>Click the button below!</h1>
+    <div class="img"> <img src="icons8-thick-arrow-pointing-down-64.svg" alt=""></div>
+
+    <div class="wrapper">
+        <a href="https://youtu.be/sTaEwwHOzjc?si=lYXfyOAAL1qRbsYe">
+            <div class="box">Click</div>
+        </a>
+    </div>
+</body>
+
+</html>
